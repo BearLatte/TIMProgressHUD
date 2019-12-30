@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024C756588430116D08AE4381F13BA53 /* TIMProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6FBF7F37BB805E8C6026FD4BD3C54 /* TIMProgressHUD-dummy.m */; };
 		18CDA67601BEA7AED6F8F5B049E5A60E /* Pods-TIMProgressHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DEDD0828ABB80C24D100DED7F2B96D /* Pods-TIMProgressHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		351D8A5C5410137B15339D32C1698903 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA662593B7ACEDB526BF4E79C4CD737F /* ReplaceMe.swift */; };
+		200035B34251A836ADD3AA3A93E07564 /* TIMProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684D1C0E83299753CBA7C663D4A3C01 /* TIMProgressView.swift */; };
+		317B702ECD534882A86FC10EB79472DA /* hud_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CB45E1B78970372851B09DC772ED23 /* hud_check@2x.png */; };
+		3588897818FD8D0649CA850898842198 /* hud_cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B36D1592D613544C14FEA5E7025440E /* hud_cross@2x.png */; };
+		4BF6FADCED02E3BA8104102325237EFA /* TIMProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDD8708D3F49BD9BCE833C3A06970C9 /* TIMProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CAA9D993291F0A234AC49B6894679E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		77DD926E32DCFFA7E62133D73DF43A22 /* TIMProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DF51135F27F260EE4F8CB856C2F56D /* TIMProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		637EBF3914490B57666B8AE900A4F827 /* TIMProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91A4A50BA50C9006ED5C7356663CEA5 /* TIMProgressCircleView.swift */; };
+		7765DB6F8583FCF20B85C99AAA08C959 /* TIMProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B56A54E12E9034AC6C906F5582702FE4 /* TIMProgressHUD.bundle */; };
+		7897811DAB7BC2370C3D2B02948D4D09 /* hud_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE7286187152806934E2B8D1964727A /* hud_check@3x.png */; };
+		84B9244349E618E8C388D51A191E487F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		948901C33A380A55437212FFA0A4CA6F /* Pods-TIMProgressHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28104B704F7957F019C1524EA82C416F /* Pods-TIMProgressHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A623F4ADF668C3234ED27A89D66A4DB4 /* TIMProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5357ED373B2DC11A9661460D4D23B24 /* TIMProgressHUD-dummy.m */; };
+		A7AE4D7A5FFAC078723D9B55E577F971 /* Progressable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04793E234C9FE1544A1DC6E0901DAD6A /* Progressable.swift */; };
+		AAE9CD473A47D20E3F278031C2B8F1F8 /* TIMProgressConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B912EF59C273E4AE4C1C8C557D8BBA /* TIMProgressConfig.swift */; };
+		B3E176B30AD96C1D3535D29DE085CB97 /* hud_cross@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 892DC4F48C64B2EFE362B2965B77E6AD /* hud_cross@3x.png */; };
 		C54205F5B1C410060752771E043DAA46 /* Pods-TIMProgressHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9FDDEEF6A79E797DAC9ABABDB9A3B9 /* Pods-TIMProgressHUD_Example-dummy.m */; };
-		CD390894D1E4DE76CC8898A584562E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E8929DFC796EDA698EF63BCA1E96CC9B /* Pods-TIMProgressHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AAA135F841EA27FA617AA6452DAAEF /* Pods-TIMProgressHUD_Tests-dummy.m */; };
+		EE5BA6A5D55DBA7EB09EB6F304C92007 /* TIMProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 055E9C52E41B0306EC086CB2769A2F92 /* TIMProgressView.xib */; };
 		FEE7B3FD41098AF4E216975ED8DBFE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		303FEDF2010FD4BD2B9403ABDB7E6E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5752FE02FBA09E9219A602E04DC417C6;
+			remoteInfo = "TIMProgressHUD-TIMProgressHUD";
+		};
 		3D8C5EC11D0D7801CE3E18F47F070457 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -39,52 +55,62 @@
 /* Begin PBXFileReference section */
 		01414375D577D75286DF94F65103C071 /* Pods_TIMProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIMProgressHUD_Example.framework; path = "Pods-TIMProgressHUD_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AAA135F841EA27FA617AA6452DAAEF /* Pods-TIMProgressHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIMProgressHUD_Tests-dummy.m"; sourceTree = "<group>"; };
+		04793E234C9FE1544A1DC6E0901DAD6A /* Progressable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Progressable.swift; path = TIMProgressHUD/Classes/Progressable.swift; sourceTree = "<group>"; };
+		055E9C52E41B0306EC086CB2769A2F92 /* TIMProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TIMProgressView.xib; path = TIMProgressHUD/Assets/TIMProgressView.xib; sourceTree = "<group>"; };
 		08BBAC970F133991A5823DD7E2C4D128 /* Pods-TIMProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIMProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		09FCB49318F9C93CD8E303636966F910 /* TIMProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIMProgressHUD.xcconfig; sourceTree = "<group>"; };
-		24D6FBF7F37BB805E8C6026FD4BD3C54 /* TIMProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIMProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		0A4DE1BF1BDAB256B76F3BE1F2C181F0 /* TIMProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TIMProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		0EBD58C74A19C5BB8EB218BEAE08504C /* ResourceBundle-TIMProgressHUD-TIMProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TIMProgressHUD-TIMProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		0FCAB3DB7CF6058067AB4B41491E3AA8 /* TIMProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TIMProgressHUD.xcconfig; sourceTree = "<group>"; };
+		1C3D01611AC9391F411D61C86A49B350 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		28104B704F7957F019C1524EA82C416F /* Pods-TIMProgressHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIMProgressHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2A9AF3E385CE009C942383779BB5E0AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2C05F5C58C10219883666E9C16E12CB7 /* Pods-TIMProgressHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIMProgressHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3456E6FABA2F440332B1454CF4663700 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3B17A2AB4FC7DB855F8CC853B2A513E3 /* Pods-TIMProgressHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIMProgressHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4684D1C0E83299753CBA7C663D4A3C01 /* TIMProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TIMProgressView.swift; path = TIMProgressHUD/Classes/TIMProgressView.swift; sourceTree = "<group>"; };
 		48DEDD0828ABB80C24D100DED7F2B96D /* Pods-TIMProgressHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIMProgressHUD_Example-umbrella.h"; sourceTree = "<group>"; };
-		642F0FEAA06E295D199E002AEBE26124 /* TIMProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		65708254343364F219B7A66D734A6FBF /* Pods-TIMProgressHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIMProgressHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6629663B55B496F318431BD6EBD69DBF /* TIMProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIMProgressHUD.modulemap; sourceTree = "<group>"; };
 		7466BD5430BE8D123D579B0162D246C8 /* Pods-TIMProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIMProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BDD8708D3F49BD9BCE833C3A06970C9 /* TIMProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		8549AFB187679A97178C16DFE105C519 /* Pods-TIMProgressHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIMProgressHUD_Tests.modulemap"; sourceTree = "<group>"; };
-		85A1CCF894DC43EACAC982FEAE496456 /* TIMProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TIMProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		892DC4F48C64B2EFE362B2965B77E6AD /* hud_cross@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hud_cross@3x.png"; path = "TIMProgressHUD/Assets/hud_cross@3x.png"; sourceTree = "<group>"; };
 		913750968DB1F6BDEBDC3F255545CF3E /* Pods_TIMProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIMProgressHUD_Tests.framework; path = "Pods-TIMProgressHUD_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		957B9CF562A911744A4DCB40E42686BF /* TIMProgressHUD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TIMProgressHUD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D66B36C7A4B2B4B9A0D91C2612DC4D /* TIMProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		9B36D1592D613544C14FEA5E7025440E /* hud_cross@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hud_cross@2x.png"; path = "TIMProgressHUD/Assets/hud_cross@2x.png"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3B912EF59C273E4AE4C1C8C557D8BBA /* TIMProgressConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TIMProgressConfig.swift; path = TIMProgressHUD/Classes/TIMProgressConfig.swift; sourceTree = "<group>"; };
 		A770CFFAF8DA1670D860829A971B9775 /* Pods-TIMProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIMProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE7286187152806934E2B8D1964727A /* hud_check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hud_check@3x.png"; path = "TIMProgressHUD/Assets/hud_check@3x.png"; sourceTree = "<group>"; };
 		B373E7C382A23414C630BCE2489ECB19 /* Pods-TIMProgressHUD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIMProgressHUD_Tests-Info.plist"; sourceTree = "<group>"; };
 		B428AF641FF6A3CF8D477A8071AB83A6 /* Pods-TIMProgressHUD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIMProgressHUD_Example-Info.plist"; sourceTree = "<group>"; };
+		B56A54E12E9034AC6C906F5582702FE4 /* TIMProgressHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TIMProgressHUD.bundle; path = "TIMProgressHUD-TIMProgressHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65E447541AFCD2448DDE6EBA08023D9 /* TIMProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TIMProgressHUD.modulemap; sourceTree = "<group>"; };
+		C5357ED373B2DC11A9661460D4D23B24 /* TIMProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TIMProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		CC805B765C86167C437229D2879C9CCD /* TIMProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TIMProgressHUD.framework; path = TIMProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CB45E1B78970372851B09DC772ED23 /* hud_check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hud_check@2x.png"; path = "TIMProgressHUD/Assets/hud_check@2x.png"; sourceTree = "<group>"; };
 		DC2885B046F4C3AD2267E234B9937FA7 /* Pods-TIMProgressHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIMProgressHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5DF51135F27F260EE4F8CB856C2F56D /* TIMProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TIMProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		E7E44B7B3F800D29DD84FE94E90E47E3 /* Pods-TIMProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIMProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EF9FDDEEF6A79E797DAC9ABABDB9A3B9 /* Pods-TIMProgressHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIMProgressHUD_Example-dummy.m"; sourceTree = "<group>"; };
-		F32FD86C3087463B93419459EEDDB2A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FA56CF3F9566B521BD387EAC703E29AA /* TIMProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TIMProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		FA662593B7ACEDB526BF4E79C4CD737F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TIMProgressHUD/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F91A4A50BA50C9006ED5C7356663CEA5 /* TIMProgressCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TIMProgressCircleView.swift; path = TIMProgressHUD/Classes/TIMProgressCircleView.swift; sourceTree = "<group>"; };
 		FF19EE0885F119C4577FD6F663C3854F /* Pods-TIMProgressHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIMProgressHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FF3CE526353251559B58C5B1499F1B0A /* Pods-TIMProgressHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TIMProgressHUD_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		362C398858CD95873FF807FBE7C27867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B9244349E618E8C388D51A191E487F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43575E67002362699AF5E6EE9459FD90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5CAA9D993291F0A234AC49B6894679E4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		44E17502AA8B8173D583C88AF5DC96C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD390894D1E4DE76CC8898A584562E0E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,39 +122,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE4AC6AFEE8353E711FFC857B29721E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39FCBE202A860F70D910D6304CBBCB55 /* Products */ = {
+		37437A53D029A8E0B3B154EBAEB582F6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01414375D577D75286DF94F65103C071 /* Pods_TIMProgressHUD_Example.framework */,
-				913750968DB1F6BDEBDC3F255545CF3E /* Pods_TIMProgressHUD_Tests.framework */,
-				CC805B765C86167C437229D2879C9CCD /* TIMProgressHUD.framework */,
+				D3D1E84E18B82AA53AA75FC0B62AF83A /* TIMProgressHUD */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		46E2AF88AE5247C742994BAD0300A06A /* Support Files */ = {
+		876764E84F217E0B6261E8BCA8820B55 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6629663B55B496F318431BD6EBD69DBF /* TIMProgressHUD.modulemap */,
-				09FCB49318F9C93CD8E303636966F910 /* TIMProgressHUD.xcconfig */,
-				24D6FBF7F37BB805E8C6026FD4BD3C54 /* TIMProgressHUD-dummy.m */,
-				FA56CF3F9566B521BD387EAC703E29AA /* TIMProgressHUD-Info.plist */,
-				642F0FEAA06E295D199E002AEBE26124 /* TIMProgressHUD-prefix.pch */,
-				E5DF51135F27F260EE4F8CB856C2F56D /* TIMProgressHUD-umbrella.h */,
+				0EBD58C74A19C5BB8EB218BEAE08504C /* ResourceBundle-TIMProgressHUD-TIMProgressHUD-Info.plist */,
+				B65E447541AFCD2448DDE6EBA08023D9 /* TIMProgressHUD.modulemap */,
+				0FCAB3DB7CF6058067AB4B41491E3AA8 /* TIMProgressHUD.xcconfig */,
+				C5357ED373B2DC11A9661460D4D23B24 /* TIMProgressHUD-dummy.m */,
+				0A4DE1BF1BDAB256B76F3BE1F2C181F0 /* TIMProgressHUD-Info.plist */,
+				96D66B36C7A4B2B4B9A0D91C2612DC4D /* TIMProgressHUD-prefix.pch */,
+				7BDD8708D3F49BD9BCE833C3A06970C9 /* TIMProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TIMProgressHUD";
-			sourceTree = "<group>";
-		};
-		9D1186E66073EB61CA0F95902C31D42B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B70BC66204607B7FA2DE37ECB969E9BB /* TIMProgressHUD */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A4AF007E93460935230A5055873EFB28 /* Targets Support Files */ = {
@@ -140,33 +164,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B70BC66204607B7FA2DE37ECB969E9BB /* TIMProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				FA662593B7ACEDB526BF4E79C4CD737F /* ReplaceMe.swift */,
-				CA4DDC7FE851F31EC148A0985669AFC5 /* Pod */,
-				46E2AF88AE5247C742994BAD0300A06A /* Support Files */,
-			);
-			name = TIMProgressHUD;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CA4DDC7FE851F31EC148A0985669AFC5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F32FD86C3087463B93419459EEDDB2A9 /* LICENSE */,
-				2A9AF3E385CE009C942383779BB5E0AE /* README.md */,
-				85A1CCF894DC43EACAC982FEAE496456 /* TIMProgressHUD.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CBD66BFB2C590A8AB75644CA50607DDE /* Pods-TIMProgressHUD_Tests */ = {
@@ -189,11 +192,21 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9D1186E66073EB61CA0F95902C31D42B /* Development Pods */,
+				37437A53D029A8E0B3B154EBAEB582F6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				39FCBE202A860F70D910D6304CBBCB55 /* Products */,
+				E774D8C1028AA37BD2DA2CAC69994DC6 /* Products */,
 				A4AF007E93460935230A5055873EFB28 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D03A8CE00D31491EB81172FE6D1D9B18 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1C3D01611AC9391F411D61C86A49B350 /* LICENSE */,
+				3456E6FABA2F440332B1454CF4663700 /* README.md */,
+				957B9CF562A911744A4DCB40E42686BF /* TIMProgressHUD.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -202,6 +215,44 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D1E84E18B82AA53AA75FC0B62AF83A /* TIMProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				04793E234C9FE1544A1DC6E0901DAD6A /* Progressable.swift */,
+				F91A4A50BA50C9006ED5C7356663CEA5 /* TIMProgressCircleView.swift */,
+				A3B912EF59C273E4AE4C1C8C557D8BBA /* TIMProgressConfig.swift */,
+				4684D1C0E83299753CBA7C663D4A3C01 /* TIMProgressView.swift */,
+				D03A8CE00D31491EB81172FE6D1D9B18 /* Pod */,
+				E34B6F3D42402985A404C984EA7C7D38 /* Resources */,
+				876764E84F217E0B6261E8BCA8820B55 /* Support Files */,
+			);
+			name = TIMProgressHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E34B6F3D42402985A404C984EA7C7D38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB45E1B78970372851B09DC772ED23 /* hud_check@2x.png */,
+				AFE7286187152806934E2B8D1964727A /* hud_check@3x.png */,
+				9B36D1592D613544C14FEA5E7025440E /* hud_cross@2x.png */,
+				892DC4F48C64B2EFE362B2965B77E6AD /* hud_cross@3x.png */,
+				055E9C52E41B0306EC086CB2769A2F92 /* TIMProgressView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E774D8C1028AA37BD2DA2CAC69994DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01414375D577D75286DF94F65103C071 /* Pods_TIMProgressHUD_Example.framework */,
+				913750968DB1F6BDEBDC3F255545CF3E /* Pods_TIMProgressHUD_Tests.framework */,
+				B56A54E12E9034AC6C906F5582702FE4 /* TIMProgressHUD.bundle */,
+				CC805B765C86167C437229D2879C9CCD /* TIMProgressHUD.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EEB3873FF6E075B60FF298230DE058B8 /* Pods-TIMProgressHUD_Example */ = {
@@ -232,11 +283,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		523F94E55FC8653993E08D1096D73590 /* Headers */ = {
+		7533FE03648AACD3196540F583B1D9AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DD926E32DCFFA7E62133D73DF43A22 /* TIMProgressHUD-umbrella.h in Headers */,
+				4BF6FADCED02E3BA8104102325237EFA /* TIMProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +302,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5752FE02FBA09E9219A602E04DC417C6 /* TIMProgressHUD-TIMProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F97240D47021C0F5C54F5EB673E646 /* Build configuration list for PBXNativeTarget "TIMProgressHUD-TIMProgressHUD" */;
+			buildPhases = (
+				9BE2CA6119092834B19E51A9B7367ECF /* Sources */,
+				CE4AC6AFEE8353E711FFC857B29721E8 /* Frameworks */,
+				6761AF76D96A810F1324F286BFD9CAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TIMProgressHUD-TIMProgressHUD";
+			productName = "TIMProgressHUD-TIMProgressHUD";
+			productReference = B56A54E12E9034AC6C906F5582702FE4 /* TIMProgressHUD.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		E4A85CF5F15EB8B1D5DBAB7D95AB0E5C /* Pods-TIMProgressHUD_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0A4C2AA508330553A93E0571505406 /* Build configuration list for PBXNativeTarget "Pods-TIMProgressHUD_Example" */;
@@ -291,16 +359,17 @@
 		};
 		FF5575B7DEF8EAC9999616EA36F4DF65 /* TIMProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7E78CE6188E882FF583DC6415B8AFEC /* Build configuration list for PBXNativeTarget "TIMProgressHUD" */;
+			buildConfigurationList = 4062478536BD5EAC979D72106A6B9C98 /* Build configuration list for PBXNativeTarget "TIMProgressHUD" */;
 			buildPhases = (
-				523F94E55FC8653993E08D1096D73590 /* Headers */,
-				CA8FA49B7C2ABFFCF0DDF637CBAA0960 /* Sources */,
-				44E17502AA8B8173D583C88AF5DC96C1 /* Frameworks */,
-				A68C80AE7B969E38C7A00A88D5FD5BE2 /* Resources */,
+				7533FE03648AACD3196540F583B1D9AB /* Headers */,
+				CADB1119718553ABCC3116FB3179D685 /* Sources */,
+				362C398858CD95873FF807FBE7C27867 /* Frameworks */,
+				C75ED80B632D67F7CFE2B7FE9BDE0A1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				67CA08772940A6E1DA80177D5045FDDC /* PBXTargetDependency */,
 			);
 			name = TIMProgressHUD;
 			productName = TIMProgressHUD;
@@ -325,18 +394,31 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 39FCBE202A860F70D910D6304CBBCB55 /* Products */;
+			productRefGroup = E774D8C1028AA37BD2DA2CAC69994DC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E4A85CF5F15EB8B1D5DBAB7D95AB0E5C /* Pods-TIMProgressHUD_Example */,
 				F311400FD5F6B47032A2794C42D82EEE /* Pods-TIMProgressHUD_Tests */,
 				FF5575B7DEF8EAC9999616EA36F4DF65 /* TIMProgressHUD */,
+				5752FE02FBA09E9219A602E04DC417C6 /* TIMProgressHUD-TIMProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6761AF76D96A810F1324F286BFD9CAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317B702ECD534882A86FC10EB79472DA /* hud_check@2x.png in Resources */,
+				7897811DAB7BC2370C3D2B02948D4D09 /* hud_check@3x.png in Resources */,
+				3588897818FD8D0649CA850898842198 /* hud_cross@2x.png in Resources */,
+				B3E176B30AD96C1D3535D29DE085CB97 /* hud_cross@3x.png in Resources */,
+				EE5BA6A5D55DBA7EB09EB6F304C92007 /* TIMProgressView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		722BA8ADADBEB83857EADD57A7271476 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,10 +433,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A68C80AE7B969E38C7A00A88D5FD5BE2 /* Resources */ = {
+		C75ED80B632D67F7CFE2B7FE9BDE0A1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7765DB6F8583FCF20B85C99AAA08C959 /* TIMProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,12 +460,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA8FA49B7C2ABFFCF0DDF637CBAA0960 /* Sources */ = {
+		9BE2CA6119092834B19E51A9B7367ECF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351D8A5C5410137B15339D32C1698903 /* ReplaceMe.swift in Sources */,
-				024C756588430116D08AE4381F13BA53 /* TIMProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADB1119718553ABCC3116FB3179D685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE4D7A5FFAC078723D9B55E577F971 /* Progressable.swift in Sources */,
+				637EBF3914490B57666B8AE900A4F827 /* TIMProgressCircleView.swift in Sources */,
+				AAE9CD473A47D20E3F278031C2B8F1F8 /* TIMProgressConfig.swift in Sources */,
+				A623F4ADF668C3234ED27A89D66A4DB4 /* TIMProgressHUD-dummy.m in Sources */,
+				200035B34251A836ADD3AA3A93E07564 /* TIMProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +488,12 @@
 			target = E4A85CF5F15EB8B1D5DBAB7D95AB0E5C /* Pods-TIMProgressHUD_Example */;
 			targetProxy = 9DA011B7A5D5BFABAD0736390569A034 /* PBXContainerItemProxy */;
 		};
+		67CA08772940A6E1DA80177D5045FDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TIMProgressHUD-TIMProgressHUD";
+			target = 5752FE02FBA09E9219A602E04DC417C6 /* TIMProgressHUD-TIMProgressHUD */;
+			targetProxy = 303FEDF2010FD4BD2B9403ABDB7E6E33 /* PBXContainerItemProxy */;
+		};
 		DBBD9BDD2C72A934C6D8389BA266139D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TIMProgressHUD;
@@ -404,40 +503,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BB2CC2633085EC9CD2A70CEAED6382E /* Debug */ = {
+		075C90B270650F9B45ACD2AC3B18230F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09FCB49318F9C93CD8E303636966F910 /* TIMProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TIMProgressHUD/TIMProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = TIMProgressHUD;
-				PRODUCT_NAME = TIMProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		335AB2CA06FE833361E63DB4A29A4F39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08BBAC970F133991A5823DD7E2C4D128 /* Pods-TIMProgressHUD_Tests.release.xcconfig */;
+			baseConfigurationReference = 7466BD5430BE8D123D579B0162D246C8 /* Pods-TIMProgressHUD_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -451,44 +519,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Tests/Pods-TIMProgressHUD_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Tests/Pods-TIMProgressHUD_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5858038D4162728770A7C6A9126EAE7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A770CFFAF8DA1670D860829A971B9775 /* Pods-TIMProgressHUD_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -502,10 +536,11 @@
 			};
 			name = Debug;
 		};
-		7EC06467DB0BC4BD8F41B1E900DAFE50 /* Release */ = {
+		65A669A1A1F05C772DF2E5A26E4C3BBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09FCB49318F9C93CD8E303636966F910 /* TIMProgressHUD.xcconfig */;
+			baseConfigurationReference = E7E44B7B3F800D29DD84FE94E90E47E3 /* Pods-TIMProgressHUD_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,18 +550,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TIMProgressHUD/TIMProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = TIMProgressHUD;
-				PRODUCT_NAME = TIMProgressHUD;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,7 +570,7 @@
 			};
 			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -582,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,7 +630,7 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -645,7 +681,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -658,9 +694,26 @@
 			};
 			name = Debug;
 		};
-		DD630692227C92EDB8C4C1569103037E /* Release */ = {
+		99DE059C541A5A8A084229643C8BF963 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E44B7B3F800D29DD84FE94E90E47E3 /* Pods-TIMProgressHUD_Example.release.xcconfig */;
+			baseConfigurationReference = 0FCAB3DB7CF6058067AB4B41491E3AA8 /* TIMProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TIMProgressHUD";
+				IBSC_MODULE = TIMProgressHUD;
+				INFOPLIST_FILE = "Target Support Files/TIMProgressHUD/ResourceBundle-TIMProgressHUD-TIMProgressHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TIMProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C24BF12F81207D8009DBDFF15CCA1D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BBAC970F133991A5823DD7E2C4D128 /* Pods-TIMProgressHUD_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -672,12 +725,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Tests/Pods-TIMProgressHUD_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Tests/Pods-TIMProgressHUD_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -692,9 +745,72 @@
 			};
 			name = Release;
 		};
-		DE7F921F6B8EB7B123C849475193F92E /* Debug */ = {
+		CA87F47CAC10D504E00CE6B6CDC0402A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7466BD5430BE8D123D579B0162D246C8 /* Pods-TIMProgressHUD_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0FCAB3DB7CF6058067AB4B41491E3AA8 /* TIMProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TIMProgressHUD/TIMProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = TIMProgressHUD;
+				PRODUCT_NAME = TIMProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E91E6431E492F7451542F51986E56E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCAB3DB7CF6058067AB4B41491E3AA8 /* TIMProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TIMProgressHUD/TIMProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TIMProgressHUD/TIMProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = TIMProgressHUD;
+				PRODUCT_NAME = TIMProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFB1E6A0E806092C946605697C6613E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A770CFFAF8DA1670D860829A971B9775 /* Pods-TIMProgressHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -706,12 +822,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Tests/Pods-TIMProgressHUD_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Tests/Pods-TIMProgressHUD_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TIMProgressHUD_Example/Pods-TIMProgressHUD_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -725,14 +841,31 @@
 			};
 			name = Debug;
 		};
+		F21C8DAE3F2399843541506DDA3B3398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCAB3DB7CF6058067AB4B41491E3AA8 /* TIMProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TIMProgressHUD";
+				IBSC_MODULE = TIMProgressHUD;
+				INFOPLIST_FILE = "Target Support Files/TIMProgressHUD/ResourceBundle-TIMProgressHUD-TIMProgressHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TIMProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1A646442A248477B8287380DFDB3786F /* Build configuration list for PBXNativeTarget "Pods-TIMProgressHUD_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE7F921F6B8EB7B123C849475193F92E /* Debug */,
-				335AB2CA06FE833361E63DB4A29A4F39 /* Release */,
+				075C90B270650F9B45ACD2AC3B18230F /* Debug */,
+				C24BF12F81207D8009DBDFF15CCA1D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,8 +873,17 @@
 		3D0A4C2AA508330553A93E0571505406 /* Build configuration list for PBXNativeTarget "Pods-TIMProgressHUD_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5858038D4162728770A7C6A9126EAE7A /* Debug */,
-				DD630692227C92EDB8C4C1569103037E /* Release */,
+				EFB1E6A0E806092C946605697C6613E2 /* Debug */,
+				65A669A1A1F05C772DF2E5A26E4C3BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4062478536BD5EAC979D72106A6B9C98 /* Build configuration list for PBXNativeTarget "TIMProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA87F47CAC10D504E00CE6B6CDC0402A /* Debug */,
+				E91E6431E492F7451542F51986E56E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,17 +891,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7E78CE6188E882FF583DC6415B8AFEC /* Build configuration list for PBXNativeTarget "TIMProgressHUD" */ = {
+		83F97240D47021C0F5C54F5EB673E646 /* Build configuration list for PBXNativeTarget "TIMProgressHUD-TIMProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BB2CC2633085EC9CD2A70CEAED6382E /* Debug */,
-				7EC06467DB0BC4BD8F41B1E900DAFE50 /* Release */,
+				F21C8DAE3F2399843541506DDA3B3398 /* Debug */,
+				99DE059C541A5A8A084229643C8BF963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

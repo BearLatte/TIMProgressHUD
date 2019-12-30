@@ -1,5 +1,5 @@
 PODS:
-  - TIMProgressHUD (0.1.0)
+  - TIMProgressHUD (1.0.0)
 
 DEPENDENCIES:
   - TIMProgressHUD (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TIMProgressHUD: 7afa736e652792008841a5ae153a1eff6702fdcc
+  TIMProgressHUD: ae00934b6c99a413eee29478ec35f0e28ffc5709
 
 PODFILE CHECKSUM: 7734bd2398d453fd1b3895733f2b34d46e90bb73
 
