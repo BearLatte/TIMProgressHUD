@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TIMProgressHUD_Example' do
+  pod 'TIMProgressHUD', :path => '../'
+
+  target 'TIMProgressHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
