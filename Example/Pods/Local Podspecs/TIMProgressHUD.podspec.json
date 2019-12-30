@@ -1,0 +1,22 @@
+{
+  "name": "TIMProgressHUD",
+  "version": "0.1.0",
+  "summary": "A short description of TIMProgressHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tim/TIMProgressHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tim": "TOPshuaiyeai@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Tim/TIMProgressHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TIMProgressHUD/Classes/**/*"
+}

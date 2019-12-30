@@ -1,0 +1,16 @@
+PODS:
+  - TIMProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - TIMProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  TIMProgressHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TIMProgressHUD: 7afa736e652792008841a5ae153a1eff6702fdcc
+
+PODFILE CHECKSUM: 7734bd2398d453fd1b3895733f2b34d46e90bb73
+
+COCOAPODS: 1.8.0

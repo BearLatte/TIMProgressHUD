@@ -1,0 +1,6 @@
+framework module TIMProgressHUD {
+  umbrella header "TIMProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}
