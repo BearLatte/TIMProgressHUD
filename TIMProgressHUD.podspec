@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'TIMProgressHUD'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Swift 非常好用的指示器小控件，支持自定义动画'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Swift 5.0 编写的非常好用的 HUD 小组件，支持自定义动画，支持动态修改主题配置，可根据自己的需要修改属性达到目的。
                        DESC
 
   s.homepage         = 'https://github.com/BearLatte/TIMProgressHUD'
