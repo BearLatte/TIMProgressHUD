@@ -62,8 +62,8 @@ extension TIMProgressView {
     /// 快速显示纯文本消息提示
     /// - Parameters:
     ///   - message: 提示文字
-    ///   - delay: 自动隐藏时间，默认不隐藏
-    public func showOnlyTextMessage(message: String, hiddenDelay delay: TimeInterval = 0) {
+    ///   - delay: 自动隐藏时间，默认 1 秒后隐藏
+    public func showTextMessage(message: String, hiddenDelay delay: TimeInterval = 1) {
         show(.plain, message: message, hiddenDelay: delay)
     }
 
@@ -101,7 +101,7 @@ extension TIMProgressView {
     ///   - customIcon: 自定义图标，会被转换为 Template 模式
     ///   - message: 状态文字，默认为 nil
     ///   - delay: 自动隐藏时间，单位 秒，默认 0，默认不隐藏
-    public func show(customIcon: UIImage, message: String? = nil, hiddenDelay delay: TimeInterval = 0) {
+    internal func show(customIcon: UIImage, message: String? = nil, hiddenDelay delay: TimeInterval = 0) {
         self.customIcon = customIcon
         show(.custom, message: message, hiddenDelay: delay)
     }

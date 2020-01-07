@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func showAction(_ sender: Any) {
-        tm.progressHUD?.show(.plain, message: "Swift 社区最近最重大的新闻应该就是 ABI 稳定了。这个话题虽然已经讨论了有一阵子了，但随着 Xcode 10.2 beta 的迭代和 Swift 5 的 release 被提上日程，最终 Swift ABI 稳定能做到什么程度，我们开发者能做些什么，需要做些什么，就变成了一个重要的话题。Apple 在这个月接连发布了 ABI Stability and More 和 Evolving Swift On Apple Platforms After ABI Stability 两篇文章来阐述 Swift 5 发布以后 ABI 相关的内容所带来的改变。虽然原文不是很长，但是有些地方上下文没有说太清楚，可能不太容易理解。本文希望对这个话题以问答的形式进行一些总结，让大家能更明白将要发生的事情。" , hiddenDelay: 3)
+        tm.progressHUD?.showTextMessage(message: "Swift 社区最近最重大的新闻应该就是 ABI 稳定了。这个话题虽然已经讨论了有一阵子了，但随着 Xcode 10.2 beta 的迭代和 Swift 5 的 release 被提上日程，最终 Swift ABI 稳定能做到什么程度，我们开发者能做些什么，需要做些什么，就变成了一个重要的话题。Apple 在这个月接连发布了 ABI Stability and More 和 Evolving Swift On Apple Platforms After ABI Stability 两篇文章来阐述 Swift 5 发布以后 ABI 相关的内容所带来的改变。虽然原文不是很长，但是有些地方上下文没有说太清楚，可能不太容易理解。本文希望对这个话题以问答的形式进行一些总结，让大家能更明白将要发生的事情。")
     }
     
     
