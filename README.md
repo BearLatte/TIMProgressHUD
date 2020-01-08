@@ -9,7 +9,7 @@
 
 运行demo可以得到以下效果
 
-![显示文字提示](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showText.gif)
+<img src="https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showText.gif" alt="显示文字提示"" />
 
 ![显示菊花和文字提示](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showIndicatorMessage.gif)
 
