@@ -7,7 +7,9 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+运行demo可以得到以下效果
+
+![](ExampleImages/showText.gif)
 
 ## Requirements
 
