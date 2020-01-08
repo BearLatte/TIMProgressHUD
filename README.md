@@ -9,7 +9,15 @@
 
 运行demo可以得到以下效果
 
-![](ExampleImages/showText.gif)
+![显示文字提示](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showText.gif)
+
+![显示菊花和文字提示](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showIndicatorMessage.gif)
+
+![显示进度提示](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showProgress.gif)
+
+![显示进度和自定义文字提示](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showProgressText.gif)
+
+![显示自定义动画](https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showCustomIndicator.gif)
 
 ## Requirements
 
