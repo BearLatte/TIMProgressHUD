@@ -9,9 +9,7 @@
 
 运行demo可以得到以下效果
 
-<center class="half">
-  <img src="https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showText.gif" width="160"/><img src="https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showIndicatorMessage.gif" width="160"/><img src="https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showProgress.gif" width="160"/><img src="https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showProgressText.gif" width="160"/><img src="https://github.com/BearLatte/TIMProgressHUD/blob/master/ExampleImages/showCustomIndicator.gif" width="160"/>
-</center>
+![现实文字提示](ExampleImages/showText.gif)![显示菊花和文字提示](ExampleImages/showIndicatorMessage.gif)![显示进度提示](ExampleImages/showProgress.gif)![显示自定义文字进度提示](ExampleImages/showProgressText.gif)![显示自定义动画提示](ExampleImages/showCustomIndicator.gif)
 
 ## Requirements
 
